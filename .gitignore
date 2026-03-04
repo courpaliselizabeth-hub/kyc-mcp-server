@@ -1,0 +1,59 @@
+## .NET / Visual Studio
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.rsuser
+*.DotSettings.user
+[Pp]ublish/
+[Rr]elease/
+[Dd]ebug/
+
+## Build artifacts
+artifacts/
+dist/
+out/
+
+## Runtime & logs
+logs/
+*.log
+*.pid
+
+## Sensitive / secrets
+.env
+*.pfx
+*.key
+*.pem
+secrets.json
+appsettings.*.local.json
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+nuget.config
+
+## Test results
+TestResults/
+*.trx
+*.coveragexml
+coverage/
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+## Docker
+.dockerignore

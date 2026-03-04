@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KYCMcpServer.Api/KYCMcpServer.Api.csproj" />
+    <Project Path="src/KYCMcpServer.Core/KYCMcpServer.Core.csproj" />
+    <Project Path="src/KYCMcpServer.Services/KYCMcpServer.Services.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/KYCMcpServer.Tests/KYCMcpServer.Tests.csproj" />
+  </Folder>
+</Solution>

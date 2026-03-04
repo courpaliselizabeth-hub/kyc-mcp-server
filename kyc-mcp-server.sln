@@ -1,0 +1,52 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KYCMcpServer.Tests", "tests\KYCMcpServer.Tests\KYCMcpServer.Tests.csproj", "{79673D2B-F34D-B3CA-A326-8AB604F1EC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KYCMcpServer.Core", "src\KYCMcpServer.Core\KYCMcpServer.Core.csproj", "{A6AB272E-90FC-CFF0-CA41-EEC46BC8FCE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KYCMcpServer.Api", "src\KYCMcpServer.Api\KYCMcpServer.Api.csproj", "{B0A4AC00-1A7B-760A-CB1E-824E316274D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KYCMcpServer.Services", "src\KYCMcpServer.Services\KYCMcpServer.Services.csproj", "{973D4761-0364-BD79-BAC9-0E19015BA37B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79673D2B-F34D-B3CA-A326-8AB604F1EC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79673D2B-F34D-B3CA-A326-8AB604F1EC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79673D2B-F34D-B3CA-A326-8AB604F1EC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79673D2B-F34D-B3CA-A326-8AB604F1EC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AB272E-90FC-CFF0-CA41-EEC46BC8FCE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AB272E-90FC-CFF0-CA41-EEC46BC8FCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AB272E-90FC-CFF0-CA41-EEC46BC8FCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AB272E-90FC-CFF0-CA41-EEC46BC8FCE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A4AC00-1A7B-760A-CB1E-824E316274D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A4AC00-1A7B-760A-CB1E-824E316274D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A4AC00-1A7B-760A-CB1E-824E316274D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A4AC00-1A7B-760A-CB1E-824E316274D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973D4761-0364-BD79-BAC9-0E19015BA37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973D4761-0364-BD79-BAC9-0E19015BA37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973D4761-0364-BD79-BAC9-0E19015BA37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973D4761-0364-BD79-BAC9-0E19015BA37B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79673D2B-F34D-B3CA-A326-8AB604F1EC20} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{A6AB272E-90FC-CFF0-CA41-EEC46BC8FCE8} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{B0A4AC00-1A7B-760A-CB1E-824E316274D3} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{973D4761-0364-BD79-BAC9-0E19015BA37B} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2996FC0-BF15-4762-B974-F5775AB111B2}
+	EndGlobalSection
+EndGlobal
